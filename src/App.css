@@ -1,9 +1,18 @@
+.boardlist {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.BoardList_head {
+  font-size: 0.8em;
+}
+
 .App {
   text-align: center;
 }
 
 body {
-  font-family: 'nanumsquare';
+  font-family: "nanumsquare";
 }
 
 .test {
@@ -11,14 +20,14 @@ body {
 }
 
 /*apple start*/
-.black-nav  {
+.black-nav {
   background: #313132;
   width: 100%;
   display: flex;
   color: white;
-  padding: 20px;
-  font-weight:600;
-  font-size: 20px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .black-nav > div:hover {
@@ -37,11 +46,13 @@ body {
   background: none;
   border: none;
   color: #1d1d1f;
-  font-weight: bold;
-  padding: 10px;
+  /* font-weight: bold; */
+  /* padding: 10px; */
+  font-size: 0.8em;
+  line-height: 20px;
 }
 
-.nav_menu > button:hover { 
+.nav_menu > button:hover {
   color: #0066cc;
   cursor: pointer;
 }
@@ -53,19 +64,19 @@ body {
   padding-right: 20px;
 }
 
-.list button{
+button {
   background: #1d1d1f;
   color: #fff;
-  border:none;
+  border: none;
   font-size: 0.7em;
-  height: 22px;
-  margin: 0 10px;
+  height: 23px;
+  /* margin: 0 10px; */
 }
 
-.list button:hover { 
+.list button:hover {
   background: #0066cc;
   cursor: pointer;
-  border:none;
+  border: none;
 }
 
 .list span:hover {
@@ -76,19 +87,20 @@ body {
   border-bottom: 3px solid #f5f5f7;
 }
 
-.edit{
+.edit {
   padding: 10px;
-  background: #d6d6d6;
+  background: #f5f5f7;
+  font-size: 0.85em;
 }
 
 .modal {
-  margin-top: 20px;
-  padding: 20px;
-  background: #eee;
+  margin-top: 10px;
+  padding: 10px;
+  background: #f5f5f7;
   text-align: left;
 }
 
-.modal:hover{
+.modal:hover {
   cursor: pointer;
 }
 
