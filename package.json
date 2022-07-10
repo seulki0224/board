@@ -14,8 +14,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +36,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "husky": "^8.0.1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.5"
+  },
+  "description": "let[title]안에 공백추가",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seulki0224/board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seulki0224/board/issues"
+  },
+  "homepage": "https://github.com/seulki0224/board"
 }
